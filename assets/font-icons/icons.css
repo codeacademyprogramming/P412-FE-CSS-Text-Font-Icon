@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./fonts/icomoon.eot?wlk7l7");
+  src: url("./fonts/icomoon.eot?wlk7l7#iefix") format("embedded-opentype"),
+    url("./fonts/icomoon.ttf?wlk7l7") format("truetype"),
+    url("./fonts/icomoon.woff?wlk7l7") format("woff"),
+    url("./fonts/icomoon.svg?wlk7l7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-office:before {
+  content: "\e903";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-phone-hang-up:before {
+  content: "\e943";
+}
+.icon-download:before {
+  content: "\e960";
+}
+.icon-redo:before {
+  content: "\e966";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-eye:before {
+  content: "\e9ce";
+}
+.icon-hipster2:before {
+  content: "\e9fa";
+}
+.icon-wondering:before {
+  content: "\e9fb";
+}
+.icon-blogger2:before {
+  content: "\eab8";
+}
+.icon-tumblr:before {
+  content: "\eab9";
+}
+.icon-tumblr2:before {
+  content: "\eaba";
+}
+.icon-yahoo:before {
+  content: "\eabb";
+}

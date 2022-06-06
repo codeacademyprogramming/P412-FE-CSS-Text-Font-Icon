@@ -1,0 +1,117 @@
+html {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Anabelle Script";
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paragraph-first {
+  text-align: justify;
+  width: 50%;
+  /* text-shadow: 1px -1px 5px red; */
+  /* text-decoration-color: red; */
+  /* text-decoration-line: line-through; */
+  /* text-decoration-style: dotted; */
+  /* text-decoration: underline dashed red; */
+  /* text-transform: capitalize; */
+  word-break: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+/* 
+.shadow {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px red;
+} */
+
+.paragraph-second {
+  width: 100px;
+  /* white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; */
+
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.paragraph-third {
+  font-weight: bold;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+.paragraph-fourth {
+  font-weight: normal;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.icon.blue path {
+  stroke: blue;
+}
+
+.icon.red path {
+  stroke: red;
+}
+
+.custom-icon {
+  color: red;
+  font-size: 40px;
+}
+
+body {
+  /* 
+    rgb
+    hex
+    hsl
+  */
+  /* background-color: red; */
+  /* red, green, blue */
+  /* 0 - 255 */
+  /* background-color: rgb(255, 255, 255); */
+  /* background-color: rgb(0, 0, 0); */
+  /* background-color: rgb(10, 50, 100); */
+
+  /* red green blue */
+  /* 
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    A
+    B
+    C
+    D
+    E
+    F 
+  */
+  /* background-color: #FFF; */
+  /* background-color: #000; */
+
+  background-color: rgba(100, 100, 100, 0.3);
+
+  /* background-color: hsl(hue, saturation, lightness); */
+}
